@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: content-box;
+}
+
+body {
+    position: relative;
+    background-color: rgb(119, 170, 179);
+    font-size: 14px;
+}
+
+main {
+    position: relative;
+    width: 760px;
+    height: 100%;
+    background-color: rgb(23, 117, 129);
+    margin: 100px auto;
+    border-radius: 15px;
+}
+
+.heading1 {
+    text-align: center;
+    text-overflow: ellipsis;
+}
+.heading2 {
+    text-align: center;
+    letter-spacing: 1em;
+    text-shadow: 5rem;
+}
+
+.section__1 {
+    position: relative;
+    width: 700px;
+    height: 50%;
+    display: inline-block;
+    background-color: rgb(51, 144, 156); 
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px auto;
+  
+}
+
+.gender {
+    display: inline-block;
+    position: relative;
+    width: 120px;
+    height: 20%;
+    display: inline-block;
+    background-color: rgb(51, 144, 156); 
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 50px auto;
+}
+
+.gender__male {
+    margin-bottom: 10px;
+      display: block;
+      margin-right: 10px;
+      font-weight: bolder;
+      margin-top: 10px;
+}
+
+.gender__female {
+    margin-bottom: 10px;
+      display: block;
+      margin-right: 10px;
+      font-weight: bolder;
+      margin-top: 2px;
+}
+
+.status {
+    display: inline-block;
+    position: relative;
+    width: 120px;
+    height: 100%;
+    background-color: rgb(51, 144, 156); 
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 1px;
+    border-radius: 10px;
+    padding: 60px auto;
+}
+
+.family__position {
+    display: inline-block;
+    position: relative;
+    width: 530px;
+    height: 100%;
+    background-color: rgb(51, 144, 156); 
+    margin-top: -3000px;
+    margin-left: 200px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-top: 75px;
+    padding-bottom: -px;
+    text-align-last: auto;
+}
+
+.motivation-of-joining {
+    display: inline-block;
+    position: relative;
+    width: 700px;
+    height: 10%;
+    background-color: rgb(51, 144, 156); 
+    border-radius: 10px; margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 1px;
+}
+
+.sign-up {
+    background-color: rgb(51, 144, 156);
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    width: 500px;
+    height: 5%;
+    padding: 12px 30px;
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 175px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 150%;
+
+}
+    

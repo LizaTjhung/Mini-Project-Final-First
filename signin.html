@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signin</title>
+    <link rel="stylesheet" href="/css3/signin1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1>SIGN IN</h1>
+        <div class="input-group">
+          <label for="username">Username:</label>
+          <input class="username" type="text" id="username"
+        </div>
+        <div class="input-group">
+          <br /><br />
+          <span class="show">SHOW</span>
+          <label for="password">Password</label>
+          <input class="pswrd" type="password" required />
+        </div>
+        <br /><br />
+        <div class="button">
+          <div class="inner"></div>
+          <button>SIGNIN</button>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      var input = document.querySelector(".pswrd");
+      var show = document.querySelector(".show");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: content-box;
+}
+
+body {
+    position: relative;
+    background-color: rgb(119, 170, 179);
+    font-size: 20px;
+}
+
+main {
+    position: relative;
+    width: 900px;
+    height: 100%;
+    background-color: rgb(23, 117, 129);
+    margin: 100px auto;
+    border-radius: 15px;
+}
+
+.heading1 {
+    text-align: center;
+    text-overflow: ellipsis;
+}
+.heading2 {
+    text-align: center;
+    letter-spacing: 1em;
+    text-shadow: 5rem;
+}
+
+.section__1 {
+    position: relative;
+    width: 820px;
+    height: 50%;
+    display: inline-block;
+    background-color: rgb(51, 144, 156); 
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px 10px;
+  
+}
+
+.gender {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(51, 144, 156); 
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    padding: 10px 10px ;
+}
+
+.gender__male {
+    margin-bottom: 10px;
+      display: block;
+      margin-right: 10px;
+      margin-top: 10px;
+}
+
+.gender__female {
+    margin-bottom: 10px;
+      display: block;
+      margin-right: 10px;
+      margin-top: 2px;
+}
+
+.status {
+    display: flexbox;
+    position: relative;
+    width: 150px;
+    height: 110%;
+    background-color: rgb(51, 144, 156); 
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+
+.gender-status {
+    display: flexbox;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.family__position {
+    display: flexbox;
+    position: relative;
+    width: 250px;
+    height: 88%;
+    background-color: rgb(51, 144, 156); 
+    margin-top: 20px;
+    margin-left: 1px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.middle-part {
+    display: flex;
+}
+
+.motivation-of-joining {
+    display: flexbox;
+    position: relative;
+    width: 352px;
+    height: 93%;
+    background-color: rgb(51, 144, 156); 
+    margin-top: 20px;
+    margin-left: 1px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 1px 10px 3px 10px;
+    font-weight: lighter;
+}
+
+.sign-up {
+    background-color: rgb(51, 144, 156);
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    width: 500px;
+    height: 5%;
+    padding: 12px 30px;
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.cancel_btn1 {
+    height: 1px;
+    width: 1px;
+    margin-top: 2px;
+    margin-left: 200px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+.cancel_btn2 {
+    height: 1px;
+    width: 1px;
+    margin-top: 65px;
+    margin-left: 300px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
