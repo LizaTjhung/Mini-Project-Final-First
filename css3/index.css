@@ -1,0 +1,126 @@
+* {
+    box-sizing: content-box ;
+}
+html {
+    box-sizing: content-box ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/fathermotherson.png);
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content:left;
+
+}
+
+.navbar-brand {
+    height: 20%;
+    width: 20%;
+    margin-left: 10px;
+}
+
+.navbar-toggler {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.nav-item dropdown {
+    color: rgb(50, 139, 139);
+}
+
+.sign__inbutton {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.sign__upbutton {
+    margin: 5px;
+    padding: 5px;
+}
+
+.leave-message-for-inquiries {
+    border: 5px;
+    padding-right: 10px;
+    margin: 30px;
+}
+
+.sign__up {
+    border: 5px;
+    padding-left: 10px;
+    margin: 10px;
+
+
+}
+
+.container__signin {
+    border: 5px;
+    padding-right: px;
+    margin: 30px;
+
+}
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .banner img {
+    width: 100%;
+  }
+  
+  .heading1 {
+    position: absolute;
+    bottom: 70%;
+    width: 70%;
+    text-align: left;
+    margin-left: 5px;
+    padding-left: 1px;
+    margin-right: 900px;
+    font-family: "Lobster", cursive;
+    color: rgb(50, 139, 139);
+  }
+
+  .heading2 {
+    position: absolute;
+    bottom: 65%;
+    width: 70%;
+    text-align: left;
+    letter-spacing: 1rem;
+    margin-left: 5px;
+    font-family: "Lobster", cursive;
+    color: rgb(50, 139, 139);
+  }
+  .heading3 {
+    position: absolute;
+    bottom: 45%;
+    width: 100%;
+    text-align: left;
+    margin-left: 30px;
+    font-family: "Lobster", cursive;
+    color: rgb(50, 139, 139);
+  }
+
+  .inquiries {
+    position: absolute;
+    bottom: 40%;
+    width: 100%;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(50, 139, 139);
+  }
+.btn-inquiries {
+    border-radius: 5px;
+    color: rgb(50, 139, 139);
+    border-color: rgb(50, 139, 139);
+}
+
+    
+
