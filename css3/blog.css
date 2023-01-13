@@ -15,7 +15,7 @@ body {
 
 .bg {
   /* The image used */
-  background-image: url("images/flowerfield.jpg");
+  background-image: url("flowerfield.jpg");
 
   /* Full height */
   height: 100%;
